@@ -40,7 +40,10 @@ bibtex@software{k_sl_model,
   year = {2026},
   url = {https://github.com/xinqidian-beep/self-excited-sonoluminescence}
 }
+License
 
+代码：MIT License
+文档与模型：CC-BY-4.0
 
 
 
