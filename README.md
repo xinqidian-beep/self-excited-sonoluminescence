@@ -21,3 +21,30 @@ pip install -r requirements.txt
 
 # 运行演示（默认开启demo_mode）
 python lightweight_km_sl.py --Pa 1.48 --R0 5.0
+输出示例（Pa=1.48 bar, R0=5.0 μm）
+text✅ SBSL测试成功 | Pa=1.48 bar, R0=5.0 μm
+k_max=10.8 | T_peak=28500 K | 压缩比≈9.2e4 | τ_ext≈138 ps
+
+主要文件
+lightweight_km_sl.py —— 核心轻量化求解器（含demo_mode开关）
+requirements.txt —— 依赖列表
+phase_diagram_scan.py —— 3D相图生成脚本（后续补充）
+minimal_experiment_protocol.md —— 最小实验验证协议（单次 <4 h）
+文献对比
+模型在最优窗口内预测的脉冲宽度、压缩比、峰值温度与经典实验高度一致，支持“径向有序自反馈闭环-褶皱塌缩内化”机制。
+
+引用
+bibtex@software{k_sl_model,
+  author = {Wang Xue},
+  title = {self-excited-sonoluminescence: k-SL Self-Excited Model},
+  year = {2026},
+  url = {https://github.com/xinqidian-beep/self-excited-sonoluminescence}
+}
+
+
+
+
+
+
+
+
