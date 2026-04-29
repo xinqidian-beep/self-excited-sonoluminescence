@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 numpy>=1.24.0
 scipy>=1.10.0
 matplotlib>=3.7.0
 plotly>=5.15.0
 torchdiffeq>=0.2.0  # 可选GPU加速
 jupyter>=1.0.0
+=======
+numpy
+scipy
+matplotlib
+>>>>>>> ca779cd0056e1f5f6776088c8cff77d3bb7881b3
